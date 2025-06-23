@@ -82,4 +82,4 @@ day_str = now.strftime("%A")
 st.write(f"ABSENTEES {date_str}")
 st.write(day_str)
 for k in catched:
-	st.writef"{k} : {rollmap.get(k)}")
+	st.write(f"{k} : {rollmap.get(k)}")
